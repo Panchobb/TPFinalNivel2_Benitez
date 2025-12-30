@@ -55,8 +55,7 @@ namespace Gestor
             {
                 listaArticulos = negocio.listar();
                 Dgv_Articulos.DataSource = listaArticulos;
-                Dgv_Articulos.Columns["ImagenUrl"].Visible = false;
-                Dgv_Articulos.Columns["Id"].Visible = false;
+                OcultarColumnas();
                 if (listaArticulos.Count > 0)
                     CargarImagen(listaArticulos[0].ImagenUrl);
             }
@@ -64,6 +63,11 @@ namespace Gestor
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+        private void OcultarColumnas()
+        {
+            Dgv_Articulos.Columns["ImagenUrl"].Visible = false;
+            Dgv_Articulos.Columns["Id"].Visible = false;
         }
         private void CargarImagen(string imagen)
         {
@@ -121,9 +125,11 @@ namespace Gestor
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
             Articulos1 seleccionado;
-            try {
+            try
+            {
                 DialogResult respuesta = MessageBox.Show("¿Estás seguro de que deseas eliminar este artículo?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (respuesta == DialogResult.Yes){
+                if (respuesta == DialogResult.Yes)
+                {
                     seleccionado = (Articulos1)Dgv_Articulos.CurrentRow.DataBoundItem;
                     negocio.eliminar(seleccionado.Id);
                     Cargar();
@@ -133,6 +139,37 @@ namespace Gestor
             {
                 MessageBox.Show("Eliminado Exitosamente");
             }
+        }
+
+        private void btnFiltro_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void txtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            List<Articulos1> listaFiltrada;
+            string filtro = txtBuscar.Text;
+
+            if (filtro.Length>=3)
+            {
+                listaFiltrada = listaArticulos.FindAll(x => x.Codigo.ToUpper().Contains(filtro.ToUpper())||x.Nombre.ToUpper().Contains(filtro.ToUpper())|| x.marca.Descripcion.ToUpper().Contains(filtro.ToUpper())|| x.categorias.Descripcion.ToUpper().Contains(filtro.ToUpper())||x.Precio.ToString().Contains(filtro));
+
+            }
+            else
+            {
+                listaFiltrada = listaArticulos;
+            }
+            Dgv_Articulos.DataSource = null;
+            Dgv_Articulos.DataSource = listaFiltrada;
+            OcultarColumnas();
         }
     }
 

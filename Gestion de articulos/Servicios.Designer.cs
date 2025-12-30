@@ -45,7 +45,6 @@
             txtNombre = new TextBox();
             LblNombre = new Label();
             txtBuscar = new TextBox();
-            btnFiltro = new Button();
             btnAgregar = new Button();
             btnModificar = new Button();
             btnEliminar = new Button();
@@ -244,19 +243,8 @@
             txtBuscar.Name = "txtBuscar";
             txtBuscar.Size = new Size(207, 23);
             txtBuscar.TabIndex = 30;
-            // 
-            // btnFiltro
-            // 
-            btnFiltro.AutoSize = true;
-            btnFiltro.BackColor = Color.Gray;
-            btnFiltro.Font = new Font("Franklin Gothic Medium", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnFiltro.ForeColor = SystemColors.ButtonHighlight;
-            btnFiltro.Location = new Point(324, 88);
-            btnFiltro.Name = "btnFiltro";
-            btnFiltro.Size = new Size(89, 34);
-            btnFiltro.TabIndex = 31;
-            btnFiltro.Text = "Filtro";
-            btnFiltro.UseVisualStyleBackColor = false;
+            txtBuscar.TextChanged += txtBuscar_TextChanged;
+            txtBuscar.KeyPress += txtBuscar_KeyPress;
             // 
             // btnAgregar
             // 
@@ -333,7 +321,6 @@
             Controls.Add(btnEliminar);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
-            Controls.Add(btnFiltro);
             Controls.Add(txtBuscar);
             Controls.Add(txtNombre);
             Controls.Add(LblNombre);
@@ -378,7 +365,6 @@
         private TextBox txtNombre;
         private Label LblNombre;
         private TextBox txtBuscar;
-        private Button btnFiltro;
         private Button btnAgregar;
         private Button btnModificar;
         private Button btnEliminar;
