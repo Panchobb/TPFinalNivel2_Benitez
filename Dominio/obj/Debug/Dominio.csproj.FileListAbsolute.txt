@@ -10,3 +10,9 @@ E:\Celular\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
 E:\Celular\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 E:\Celular\Dominio\obj\Debug\Dominio.dll
 E:\Celular\Dominio\obj\Debug\Dominio.pdb
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\bin\Debug\Dominio.dll
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\bin\Debug\Dominio.pdb
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.dll
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.pdb

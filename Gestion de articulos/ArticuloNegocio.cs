@@ -86,5 +86,10 @@ namespace Negocio
                 datos.CerrarConexion();
             }
         }
+
+        internal void modificar(Articulos1 articulo)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

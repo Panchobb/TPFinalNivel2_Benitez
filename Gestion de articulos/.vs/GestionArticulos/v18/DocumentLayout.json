@@ -1,32 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Celular\\Gestion de articulos\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|e:\\celular\\gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Celular\\Negocio\\ArticuloNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|E:\\Celular\\Gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|e:\\celular\\gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\usuario\\documents\\github\\gestionarticulos\\gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|E:\\Celular\\Gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\usuario\\documents\\github\\gestionarticulos\\gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210150CB-08DB-473C-A126-0169E7E13AB6}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\documents\\github\\gestionarticulos\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97819B26-778A-4933-B126-F11D45BC857E}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\documents\\github\\gestionarticulos\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{210150CB-08DB-473C-A126-0169E7E13AB6}|..\\Negocio\\Negocio.csproj|e:\\celular\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|e:\\celular\\gestion de articulos\\servicios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\usuario\\documents\\github\\gestionarticulos\\gestion de articulos\\servicios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{210150CB-08DB-473C-A126-0169E7E13AB6}|..\\Negocio\\Negocio.csproj|e:\\celular\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Celular\\Negocio\\MarcaNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmAgregar.cs",
-              "DocumentMoniker": "E:\\Celular\\Gestion de articulos\\frmAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeDocumentMoniker": "frmAgregar.cs",
-              "ToolTip": "E:\\Celular\\Gestion de articulos\\frmAgregar.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeToolTip": "frmAgregar.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAUwF4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-28T18:54:13.173Z",
               "IsPinned": true,
@@ -54,24 +60,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Servicios.cs",
-              "DocumentMoniker": "E:\\Celular\\Gestion de articulos\\Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs",
               "RelativeDocumentMoniker": "Servicios.cs",
-              "ToolTip": "E:\\Celular\\Gestion de articulos\\Servicios.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs",
               "RelativeToolTip": "Servicios.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwHAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-28T18:49:27.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "frmAgregar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Celular\\Gestion de articulos\\frmAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeDocumentMoniker": "frmAgregar.cs",
-              "ToolTip": "E:\\Celular\\Gestion de articulos\\frmAgregar.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmAgregar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T22:34:15.908Z",
@@ -79,23 +85,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MarcaNegocio.cs",
               "DocumentMoniker": "E:\\Celular\\Negocio\\MarcaNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\MarcaNegocio.cs",
               "ToolTip": "E:\\Celular\\Negocio\\MarcaNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\MarcaNegocio.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAlwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T22:25:51.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Servicios.Designer.cs",
-              "DocumentMoniker": "E:\\Celular\\Gestion de articulos\\Servicios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.Designer.cs",
               "RelativeDocumentMoniker": "Servicios.Designer.cs",
-              "ToolTip": "E:\\Celular\\Gestion de articulos\\Servicios.Designer.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.Designer.cs",
               "RelativeToolTip": "Servicios.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAhwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,27 +108,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "E:\\Celular\\Negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "E:\\Celular\\Negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T22:28:04.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Servicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Celular\\Gestion de articulos\\Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs",
               "RelativeDocumentMoniker": "Servicios.cs",
-              "ToolTip": "E:\\Celular\\Gestion de articulos\\Servicios.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs [Dise\u00F1o]",
               "RelativeToolTip": "Servicios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T22:12:19.507Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "E:\\Celular\\Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "E:\\Celular\\Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T22:28:04.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Articulos.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Articulos.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Articulos.cs",
+              "RelativeToolTip": "..\\Dominio\\Articulos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T23:13:44.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "..\\Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T23:14:32.623Z",
+              "EditorCaption": ""
             }
           ]
         }

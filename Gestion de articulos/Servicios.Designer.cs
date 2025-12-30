@@ -61,8 +61,11 @@
             Dgv_Articulos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Dgv_Articulos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             Dgv_Articulos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            Dgv_Articulos.Location = new Point(-1, 128);
+            Dgv_Articulos.EditMode = DataGridViewEditMode.EditProgrammatically;
+            Dgv_Articulos.Location = new Point(-1, 132);
+            Dgv_Articulos.MultiSelect = false;
             Dgv_Articulos.Name = "Dgv_Articulos";
+            Dgv_Articulos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             Dgv_Articulos.Size = new Size(704, 486);
             Dgv_Articulos.TabIndex = 4;
             Dgv_Articulos.CellContentClick += Dgv_Articulos_CellContentClick;

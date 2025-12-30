@@ -16,3 +16,12 @@ E:\Celular\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 E:\Celular\Negocio\obj\Debug\Negocio.csproj.Up2Date
 E:\Celular\Negocio\obj\Debug\Negocio.dll
 E:\Celular\Negocio\obj\Debug\Negocio.pdb
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\bin\Debug\Negocio.dll
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\bin\Debug\Dominio.dll
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\bin\Debug\Dominio.pdb
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\obj\Debug\Negocio.dll
+C:\Users\usuario\Documents\GitHub\GestionArticulos\Negocio\obj\Debug\Negocio.pdb

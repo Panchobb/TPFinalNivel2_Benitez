@@ -25,40 +25,71 @@ namespace Gestor_de_Catalogo
 
             InitializeComponent();
             this.articulo = articulos;
+            Text= "Modificar Articulo";
         }
         private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            Articulos1 art = new Articulos1();
-            ArticuloNegocio negocio = new ArticuloNegocio();
-            art.Codigo = txtCodigo.Text;
-            art.Nombre = textBox1.Text;
-            art.Descripcion = txtDescripcion.Text;
-            art.Precio = decimal.Parse(txtPrecio.Text);
-            art.marca = (Marca)cbxMarca.SelectedItem;
-            art.categorias = (Categorias)cbxCategoria.SelectedItem;
-            art.ImagenUrl = txtUrlImagen.Text;
 
-            negocio.agregar(art);
-            MessageBox.Show("Articulo agregado exitosamente");
-            Close();
+        {
+
+            
+
+            ArticuloNegocio negocio = new ArticuloNegocio();
+
+
+
+
 
             try
+
             {
+                if (articulo == null)
+                    articulo = new Articulos1();
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Nombre = txtNombre.Text;
+                articulo.Descripcion = txtDescripcion.Text;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
+                articulo.marca = (Marca)cbxMarca.SelectedItem;
+                articulo.categorias = (Categorias)cbxCategoria.SelectedItem;
+                articulo.ImagenUrl = txtUrlImagen.Text;
+
+                if (articulo.Id != null)
+                {
+                    negocio.modificar(articulo);
+                    MessageBox.Show("Articulo modificado exitosamente");
+                }
+                else
+                {
+                    negocio.agregar(articulo);
+
+                    MessageBox.Show("Articulo agregado exitosamente");
+                }
+
+                    
+                
+                Close();
+                
+
 
             }
+
             catch (Exception ex)
+
             {
+
                 MessageBox.Show(ex.ToString());
+
             }
+
         }
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        
         private void frmAgregar_Load(object sender, EventArgs e)
         {
         
+            
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
             MarcaNegocio marcaNegocio = new MarcaNegocio();
             try
@@ -76,7 +107,7 @@ namespace Gestor_de_Catalogo
                 if (articulo != null)
                 {
                     txtCodigo.Text = articulo.Codigo;
-                    textBox1.Text = articulo.Nombre;
+                    txtNombre.Text = articulo.Nombre;
                     txtDescripcion.Text = articulo.Descripcion;
                     txtPrecio.Text = articulo.Precio.ToString();
                     txtUrlImagen.Text = articulo.ImagenUrl;
@@ -115,6 +146,7 @@ namespace Gestor_de_Catalogo
                 pbcxArticulo.Load("https://efectocolibri.com/wp-content/uploads/2021/01/placeholder.png");
             }
         }
+
     }
 }
 

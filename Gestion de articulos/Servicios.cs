@@ -56,6 +56,7 @@ namespace Gestor
                 listaArticulos = negocio.listar();
                 Dgv_Articulos.DataSource = listaArticulos;
                 Dgv_Articulos.Columns["ImagenUrl"].Visible = false;
+                Dgv_Articulos.Columns["Id"].Visible = false;
                 if (listaArticulos.Count > 0)
                     CargarImagen(listaArticulos[0].ImagenUrl);
             }
@@ -100,13 +101,20 @@ namespace Gestor
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            
+            if (Dgv_Articulos.CurrentRow == null)
+            {
+                MessageBox.Show("Por favor, selecciona un artículo.");
+                return;
+            }
 
-            Articulos1 seleccionado;
-            seleccionado = (Articulos1)Dgv_Articulos.CurrentRow.DataBoundItem;
-            frmAgregar modificar = new frmAgregar();
+            Articulos1 seleccionado = (Articulos1)Dgv_Articulos.CurrentRow.DataBoundItem;
+
+           
+            frmAgregar modificar = new frmAgregar(seleccionado);
+
             modificar.ShowDialog();
             Cargar();
-
         }
     }
 

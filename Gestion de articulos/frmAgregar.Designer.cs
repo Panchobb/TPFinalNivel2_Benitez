@@ -31,7 +31,7 @@
             txtCodigo = new TextBox();
             LblCodigo = new Label();
             lblNombre = new Label();
-            textBox1 = new TextBox();
+            txtNombre = new TextBox();
             lblMarca = new Label();
             lblDescripcion = new Label();
             txtDescripcion = new TextBox();
@@ -75,12 +75,12 @@
             lblNombre.TabIndex = 3;
             lblNombre.Text = "Nombre";
             // 
-            // textBox1
+            // txtNombre
             // 
-            textBox1.Location = new Point(225, 105);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(93, 23);
-            textBox1.TabIndex = 2;
+            txtNombre.Location = new Point(225, 105);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(93, 23);
+            txtNombre.TabIndex = 2;
             // 
             // lblMarca
             // 
@@ -220,7 +220,7 @@
             Controls.Add(txtPrecio);
             Controls.Add(lblMarca);
             Controls.Add(lblNombre);
-            Controls.Add(textBox1);
+            Controls.Add(txtNombre);
             Controls.Add(LblCodigo);
             Controls.Add(txtCodigo);
             Name = "frmAgregar";
@@ -236,7 +236,7 @@
         private TextBox txtCodigo;
         private Label LblCodigo;
         private Label lblNombre;
-        private TextBox textBox1;
+        private TextBox txtNombre;
         private Label lblMarca;
         private Label lblDescripcion;
         private TextBox txtDescripcion;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4JZj8uX+tmA=",
+  "dgSpecHash": "0i1Zd2lFtNg=",
   "success": true,
-  "projectFilePath": "E:\\Celular\\Gestion de articulos\\Gestor de Catalogo.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
