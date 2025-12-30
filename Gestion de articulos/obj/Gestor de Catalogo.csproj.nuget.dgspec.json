@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj": {}
+    "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,20 +20,20 @@
         "net472": {}
       }
     },
-    "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj": {
+    "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj",
+        "projectUniqueName": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj",
         "projectName": "Gestor de Catalogo",
-        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\obj\\",
+        "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Gestor de Catalogo.csproj",
+        "packagesPath": "C:\\Users\\francisco benitez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\francisco benitez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,17 +42,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj"
+              "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj": {
-                "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj"
+              "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj"
               }
             }
           }
@@ -67,7 +68,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -97,21 +98,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj",
+        "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\Negocio.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj"
+              "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Dominio.csproj"
               }
             }
           }

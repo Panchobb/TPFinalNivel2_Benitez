@@ -54,7 +54,7 @@ namespace Gestor_de_Catalogo
 
                 if (articulo.Id != null)
                 {
-                    negocio.modificar(articulo);
+                    negocio.modificado(articulo);
                     MessageBox.Show("Articulo modificado exitosamente");
                 }
                 else

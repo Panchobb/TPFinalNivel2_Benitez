@@ -19,7 +19,9 @@ namespace Negocio
             try
             {
                
-                datos.SetearConsulta("SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, m.Descripcion , c.Descripcion , a.ImagenUrl, a.Precio, a.IdMarca, a.IdCategoria FROM ARTICULOS a, MARCAS m, CATEGORIAS c WHERE m.Id = a.IdMarca AND c.Id = a.IdCategoria");
+                datos.SetearConsulta(
+                    "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, m.Descripcion AS Marca, c.Descripcion AS Categoria, a.ImagenUrl, a.Precio, a.IdMarca, a.IdCategoria " +
+                    "FROM ARTICULOS a, MARCAS m, CATEGORIAS c WHERE m.Id = a.IdMarca AND c.Id = a.IdCategoria");
 
                 datos.EjecutarLectura();
 
@@ -41,8 +43,8 @@ namespace Negocio
                     aux.categorias.Id = (int)lector["IdCategoria"];
                     aux.categorias.Descripcion = (string)lector["Categoria"];
                     aux.Precio = (decimal)lector["Precio"];
-                    if(!(lector.IsDBNull(lector.GetOrdinal("UrlImagen"))))
-                    aux.ImagenUrl = (string)lector["ImagenUrl"];
+                    if (!lector.IsDBNull(lector.GetOrdinal("ImagenUrl")))
+                        aux.ImagenUrl = (string)lector["ImagenUrl"];
 
                     lista.Add(aux);
                 }
@@ -61,6 +63,11 @@ namespace Negocio
 
         public void agregar(Articulos1 nuevo)
         {
+            if (nuevo.marca == null)
+                throw new Exception("La marca no puede ser nula.");
+            if (nuevo.categorias == null)
+                throw new Exception("La categoría no puede ser nula.");
+
             AccesoDatos datos = new AccesoDatos();
             try
             {
@@ -73,8 +80,8 @@ namespace Negocio
                 datos.SetearParametro("@Descripcion", nuevo.Descripcion);
                 datos.SetearParametro("@Precio", nuevo.Precio);
                 datos.SetearParametro("@ImagenUrl", nuevo.ImagenUrl);
-                datos.SetearParametro("@IdMarca", nuevo.marca);
-                datos.SetearParametro("@IdCategoria", nuevo.categorias);
+                datos.SetearParametro("@IdMarca", nuevo.marca.Id);
+                datos.SetearParametro("@IdCategoria", nuevo.categorias.Id);
 
                 datos.ejecutarAccion();
             }
@@ -87,23 +94,24 @@ namespace Negocio
                 datos.CerrarConexion();
             }
         }
-      public void modificar(Articulos1 aux)
+      public void modificado(Articulos1 aux)
         {
-            AccesoDatos datos = new AccesoDatos();
+          AccesoDatos datos = new AccesoDatos();
             try
             {
-               
+                 
                 datos.SetearConsulta(
                     "UPDATE ARTICULOS SET Codigo = @Codigo, Nombre = @Nombre, Descripcion = @Descripcion, Precio = @Precio, ImagenUrl = @ImagenUrl, IdMarca = @IdMarca, IdCategoria = @IdCategoria " +
-                     "WHERE Id = @Id");
-                datos.SetearParametro("@Codigo",aux.Codigo);
-                datos.SetearParametro("@Nombre",aux.Nombre);
+                    "WHERE Id = @Id");
+                datos.SetearParametro("@Codigo", aux.Codigo);
+                datos.SetearParametro("@Nombre", aux.Nombre);
                 datos.SetearParametro("@Descripcion", aux.Descripcion);
                 datos.SetearParametro("@Precio", aux.Precio);
                 datos.SetearParametro("@ImagenUrl", aux.ImagenUrl);
                 datos.SetearParametro("@IdMarca", aux.marca.Id);
-                datos.SetearParametro("@IdCategoria",aux.categorias.Id);
+                datos.SetearParametro("@IdCategoria", aux.categorias.Id);
                 datos.SetearParametro("@Id", aux.Id);
+    
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

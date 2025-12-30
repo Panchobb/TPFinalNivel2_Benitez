@@ -16,3 +16,9 @@ C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csp
 C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.dll
 C:\Users\usuario\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.pdb
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\bin\Debug\Dominio.dll
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\bin\Debug\Dominio.pdb
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.dll
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Dominio\obj\Debug\Dominio.pdb
