@@ -45,6 +45,7 @@
             lblUrlImagen = new Label();
             txtUrlImagen = new TextBox();
             pbcxArticulo = new PictureBox();
+            btnAgregarImagen = new Button();
             ((System.ComponentModel.ISupportInitialize)pbcxArticulo).BeginInit();
             SuspendLayout();
             // 
@@ -158,6 +159,7 @@
             // 
             // cbxMarca
             // 
+            cbxMarca.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxMarca.FormattingEnabled = true;
             cbxMarca.Location = new Point(225, 192);
             cbxMarca.Name = "cbxMarca";
@@ -167,6 +169,7 @@
             // 
             // cbxCategoria
             // 
+            cbxCategoria.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxCategoria.FormattingEnabled = true;
             cbxCategoria.Location = new Point(225, 232);
             cbxCategoria.Name = "cbxCategoria";
@@ -200,12 +203,23 @@
             pbcxArticulo.TabIndex = 18;
             pbcxArticulo.TabStop = false;
             // 
+            // btnAgregarImagen
+            // 
+            btnAgregarImagen.Location = new Point(564, 388);
+            btnAgregarImagen.Name = "btnAgregarImagen";
+            btnAgregarImagen.Size = new Size(75, 23);
+            btnAgregarImagen.TabIndex = 19;
+            btnAgregarImagen.Text = "Agregar";
+            btnAgregarImagen.UseVisualStyleBackColor = true;
+            btnAgregarImagen.Click += btnAgregarImagen_Click;
+            // 
             // frmAgregar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(894, 456);
+            Controls.Add(btnAgregarImagen);
             Controls.Add(pbcxArticulo);
             Controls.Add(lblUrlImagen);
             Controls.Add(txtUrlImagen);
@@ -251,5 +265,6 @@
         private Label lblUrlImagen;
         private TextBox txtUrlImagen;
         private PictureBox pbcxArticulo;
+        private Button btnAgregarImagen;
     }
 }

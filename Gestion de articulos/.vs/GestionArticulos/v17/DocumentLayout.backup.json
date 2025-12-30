@@ -3,23 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\gestion de articulos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{210150CB-08DB-473C-A126-0169E7E13AB6}|..\\Negocio\\Negocio.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{97819B26-778A-4933-B126-F11D45BC857E}|..\\Dominio\\Dominio.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|c:\\users\\francisco benitez\\onedrive\\documents\\github\\gestionarticulos\\gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5C62149-52A9-4A89-9C5A-F0D3D355D4F7}|Gestor de Catalogo.csproj|solutionrelative:frmagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,30 +32,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Articulos.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Articulos.cs",
+              "ToolTip": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Dominio\\Articulos.cs",
+              "RelativeToolTip": "..\\Dominio\\Articulos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:09:38.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ArticuloNegocio.cs",
               "DocumentMoniker": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "..\\Negocio\\ArticuloNegocio.cs",
               "ToolTip": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Negocio\\ArticuloNegocio.cs",
               "RelativeToolTip": "..\\Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAgwNsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T13:54:19.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Servicios.cs",
               "DocumentMoniker": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs",
               "RelativeDocumentMoniker": "Servicios.cs",
               "ToolTip": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\Servicios.cs",
               "RelativeToolTip": "Servicios.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAA2wKAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAA2wLUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T13:53:41.651Z",
               "EditorCaption": ""
@@ -71,20 +87,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "frmAgregar.cs",
               "DocumentMoniker": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeDocumentMoniker": "frmAgregar.cs",
               "ToolTip": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeToolTip": "frmAgregar.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAcwDoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T13:22:59.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmAgregar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\francisco benitez\\OneDrive\\Documents\\GitHub\\GestionArticulos\\Gestion de articulos\\frmAgregar.cs",
               "RelativeDocumentMoniker": "frmAgregar.cs",

@@ -31,7 +31,6 @@
             Dgv_Articulos = new DataGridView();
             pbx_Articulos = new PictureBox();
             lbl_ListaArticulos = new Label();
-            Lbl_Buscar = new Label();
             Lbl_Linea = new Label();
             Lbl_Detalle = new Label();
             Lbl_Codigo1 = new Label();
@@ -44,12 +43,18 @@
             txtCategoria = new TextBox();
             txtNombre = new TextBox();
             LblNombre = new Label();
-            txtBuscar = new TextBox();
             btnAgregar = new Button();
             btnModificar = new Button();
             btnEliminar = new Button();
             txtPrecio = new TextBox();
             label1 = new Label();
+            lblCampo = new Label();
+            cbxCampo = new ComboBox();
+            cbxCriterio = new ComboBox();
+            lblCriterio = new Label();
+            txtFiltro = new TextBox();
+            lblFiltro = new Label();
+            btnBuscar = new Button();
             ((System.ComponentModel.ISupportInitialize)Dgv_Articulos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbx_Articulos).BeginInit();
             SuspendLayout();
@@ -92,19 +97,6 @@
             lbl_ListaArticulos.TabIndex = 6;
             lbl_ListaArticulos.Text = "Listado de Articulos";
             lbl_ListaArticulos.Click += label1_Click;
-            // 
-            // Lbl_Buscar
-            // 
-            Lbl_Buscar.AutoSize = true;
-            Lbl_Buscar.BackColor = Color.FromArgb(64, 64, 64);
-            Lbl_Buscar.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Lbl_Buscar.ForeColor = SystemColors.ButtonHighlight;
-            Lbl_Buscar.Location = new Point(13, 88);
-            Lbl_Buscar.Margin = new Padding(5, 0, 5, 0);
-            Lbl_Buscar.Name = "Lbl_Buscar";
-            Lbl_Buscar.Size = new Size(88, 25);
-            Lbl_Buscar.TabIndex = 7;
-            Lbl_Buscar.Text = "Buscar : ";
             // 
             // Lbl_Linea
             // 
@@ -237,15 +229,6 @@
             LblNombre.TabIndex = 28;
             LblNombre.Text = "Nombre : ";
             // 
-            // txtBuscar
-            // 
-            txtBuscar.Location = new Point(99, 90);
-            txtBuscar.Name = "txtBuscar";
-            txtBuscar.Size = new Size(207, 23);
-            txtBuscar.TabIndex = 30;
-            txtBuscar.TextChanged += txtBuscar_TextChanged;
-            txtBuscar.KeyPress += txtBuscar_KeyPress;
-            // 
             // btnAgregar
             // 
             btnAgregar.AutoSize = true;
@@ -310,18 +293,99 @@
             label1.TabIndex = 35;
             label1.Text = "Precio : ";
             // 
+            // lblCampo
+            // 
+            lblCampo.AutoSize = true;
+            lblCampo.BackColor = Color.FromArgb(64, 64, 64);
+            lblCampo.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCampo.ForeColor = SystemColors.ButtonHighlight;
+            lblCampo.Location = new Point(11, 65);
+            lblCampo.Margin = new Padding(5, 0, 5, 0);
+            lblCampo.Name = "lblCampo";
+            lblCampo.Size = new Size(87, 25);
+            lblCampo.TabIndex = 37;
+            lblCampo.Text = "Campo : ";
+            // 
+            // cbxCampo
+            // 
+            cbxCampo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxCampo.FormattingEnabled = true;
+            cbxCampo.Location = new Point(96, 65);
+            cbxCampo.Name = "cbxCampo";
+            cbxCampo.Size = new Size(121, 23);
+            cbxCampo.TabIndex = 38;
+            cbxCampo.SelectedIndexChanged += cbxCampo_SelectedIndexChanged;
+            // 
+            // cbxCriterio
+            // 
+            cbxCriterio.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxCriterio.FormattingEnabled = true;
+            cbxCriterio.Location = new Point(347, 63);
+            cbxCriterio.Name = "cbxCriterio";
+            cbxCriterio.Size = new Size(121, 23);
+            cbxCriterio.TabIndex = 40;
+            // 
+            // lblCriterio
+            // 
+            lblCriterio.AutoSize = true;
+            lblCriterio.BackColor = Color.FromArgb(64, 64, 64);
+            lblCriterio.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCriterio.ForeColor = SystemColors.ButtonHighlight;
+            lblCriterio.Location = new Point(262, 63);
+            lblCriterio.Margin = new Padding(5, 0, 5, 0);
+            lblCriterio.Name = "lblCriterio";
+            lblCriterio.Size = new Size(91, 25);
+            lblCriterio.TabIndex = 39;
+            lblCriterio.Text = "Criterio : ";
+            // 
+            // txtFiltro
+            // 
+            txtFiltro.Location = new Point(574, 65);
+            txtFiltro.Name = "txtFiltro";
+            txtFiltro.Size = new Size(116, 23);
+            txtFiltro.TabIndex = 42;
+            // 
+            // lblFiltro
+            // 
+            lblFiltro.AutoSize = true;
+            lblFiltro.BackColor = Color.FromArgb(64, 64, 64);
+            lblFiltro.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFiltro.ForeColor = SystemColors.ButtonHighlight;
+            lblFiltro.Location = new Point(488, 63);
+            lblFiltro.Margin = new Padding(5, 0, 5, 0);
+            lblFiltro.Name = "lblFiltro";
+            lblFiltro.Size = new Size(73, 25);
+            lblFiltro.TabIndex = 41;
+            lblFiltro.Text = "Filtro : ";
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Location = new Point(11, 103);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(104, 23);
+            btnBuscar.TabIndex = 43;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click_1;
+            // 
             // Servicios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(1102, 708);
+            Controls.Add(btnBuscar);
+            Controls.Add(txtFiltro);
+            Controls.Add(lblFiltro);
+            Controls.Add(cbxCriterio);
+            Controls.Add(lblCriterio);
+            Controls.Add(cbxCampo);
+            Controls.Add(lblCampo);
             Controls.Add(txtPrecio);
             Controls.Add(label1);
             Controls.Add(btnEliminar);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
-            Controls.Add(txtBuscar);
             Controls.Add(txtNombre);
             Controls.Add(LblNombre);
             Controls.Add(txtCategoria);
@@ -334,7 +398,6 @@
             Controls.Add(Lbl_Codigo1);
             Controls.Add(Lbl_Detalle);
             Controls.Add(Lbl_Linea);
-            Controls.Add(Lbl_Buscar);
             Controls.Add(lbl_ListaArticulos);
             Controls.Add(pbx_Articulos);
             Controls.Add(Dgv_Articulos);
@@ -351,7 +414,6 @@
         private DataGridView Dgv_Articulos;
         private PictureBox pbx_Articulos;
         private Label lbl_ListaArticulos;
-        private Label Lbl_Buscar;
         private Label Lbl_Linea;
         private Label Lbl_Detalle;
         private Label Lbl_Codigo1;
@@ -364,11 +426,17 @@
         private TextBox txtCategoria;
         private TextBox txtNombre;
         private Label LblNombre;
-        private TextBox txtBuscar;
         private Button btnAgregar;
         private Button btnModificar;
         private Button btnEliminar;
         private TextBox txtPrecio;
         private Label label1;
+        private Label lblCampo;
+        private ComboBox cbxCampo;
+        private ComboBox cbxCriterio;
+        private Label lblCriterio;
+        private TextBox txtFiltro;
+        private Label lblFiltro;
+        private Button btnBuscar;
     }
 }

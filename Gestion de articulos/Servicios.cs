@@ -27,6 +27,11 @@ namespace Gestor
         private void Servicios_Load(object sender, EventArgs e)
         {
             Cargar();
+            cbxCampo.Items.Add("Código");
+            cbxCampo.Items.Add("Nombre");
+            cbxCampo.Items.Add("Marca");
+            cbxCampo.Items.Add("Categoría");
+            cbxCampo.Items.Add("Precio");
 
         }
 
@@ -43,7 +48,7 @@ namespace Gestor
             txtDescripcion.Text = seleccionado.Descripcion;
             txtMarca.Text = seleccionado.marca.Descripcion;
             txtCategoria.Text = seleccionado.categorias.Descripcion;
-            txtPrecio.Text = seleccionado.Precio.ToString("C");
+            txtPrecio.Text = seleccionado.Precio.ToString("0.00");
 
 
 
@@ -150,28 +155,65 @@ namespace Gestor
 
         private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
-        private void txtBuscar_TextChanged(object sender, EventArgs e)
+
+
+        private void cbxCampo_SelectedIndexChanged(object sender, EventArgs e)
         {
-            List<Articulos1> listaFiltrada;
-            string filtro = txtBuscar.Text;
-
-            if (filtro.Length>=3)
+            string opcion = cbxCampo.SelectedItem.ToString();
+            if (opcion == "Precio")
             {
-                listaFiltrada = listaArticulos.FindAll(x => x.Codigo.ToUpper().Contains(filtro.ToUpper())||x.Nombre.ToUpper().Contains(filtro.ToUpper())|| x.marca.Descripcion.ToUpper().Contains(filtro.ToUpper())|| x.categorias.Descripcion.ToUpper().Contains(filtro.ToUpper())||x.Precio.ToString().Contains(filtro));
-
+                cbxCriterio.Items.Clear();
+                cbxCriterio.Items.Add("Mayor a");
+                cbxCriterio.Items.Add("Menor a");
+                cbxCriterio.Items.Add("Igual a");
             }
             else
             {
-                listaFiltrada = listaArticulos;
+                cbxCriterio.Items.Clear();
+                cbxCriterio.Items.Add("Comienza con");
+                cbxCriterio.Items.Add("Termina con");
+                cbxCriterio.Items.Add("Contiene");
             }
-            Dgv_Articulos.DataSource = null;
-            Dgv_Articulos.DataSource = listaFiltrada;
-            OcultarColumnas();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+        }
+        private void validarFiltro()
+        {
+            if (cbxCampo.SelectedIndex < 0)
+                throw new Exception("Por favor, seleccione un campo para filtrar.");
+            if (cbxCriterio.SelectedIndex < 0)
+                throw new Exception("Por favor, seleccione un criterio para filtrar.");
+            if (string.IsNullOrWhiteSpace(txtFiltro.Text))
+                throw new Exception("Por favor, ingrese un valor para filtrar.");
+            if (cbxCampo.SelectedItem.ToString() == "Precio")
+            {
+                if (!decimal.TryParse(txtFiltro.Text, out _))
+                    throw new Exception("Por favor, ingrese un valor numérico válido para el precio.");
+            }
+        }
+        private void btnBuscar_Click_1(object sender, EventArgs e)
+        {
+
+            ArticuloNegocio negocio = new ArticuloNegocio();
+            try
+            {
+                string campo = cbxCampo.SelectedItem?.ToString();
+                string criterio = cbxCriterio.SelectedItem?.ToString();
+                string filtro = txtFiltro.Text;
+                Dgv_Articulos.DataSource = negocio.filtrado(campo, criterio, filtro);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Por favor, complete todos los campos de búsqueda.");
+
+
+            }
+
         }
     }
-
-
 }

@@ -127,3 +127,4 @@ C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Gestion de
 C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Gestion de articulos\obj\Debug\net8.0-windows\Gestor de Catalogo.pdb
 C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Gestion de articulos\obj\Debug\net8.0-windows\Gestor de Catalogo.genruntimeconfig.cache
 C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Gestion de articulos\obj\Debug\net8.0-windows\ref\Gestor de Catalogo.dll
+C:\Users\francisco benitez\OneDrive\Documents\GitHub\GestionArticulos\Gestion de articulos\bin\Debug\net8.0-windows\Gestor de Catalogo.dll.config
